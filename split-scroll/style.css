@@ -1,0 +1,25 @@
+* {margin: 0; padding: 0;}
+
+html, body { height: 100%; overflow: hidden;}
+
+#left, #right {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 100%;
+    overflow: scroll;
+    color: white;
+    font-size: 80px;
+}
+
+.content {
+    padding: 120px;
+}
+
+#left {
+    background-color: red;
+}
+
+#right {
+    background-color: purple;
+}
